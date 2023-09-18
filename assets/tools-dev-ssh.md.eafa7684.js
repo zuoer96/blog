@@ -1,0 +1,45 @@
+import{_ as a,o as s,c as e,Q as n}from"./chunks/framework.027d2da0.js";const l="/images/image-20230914221749818.png",p="/images/image-20230914221800750.png",o="/images/image-20230914221817837.png",t="/images/image-20230914221828668.png",c="/images/image-20230914221848276.png",i="/images/image-20230914222854498.png",r="/images/image-20230914222908945.png",m="/images/image-20230914222917195.png",d="/images/image-20230914222927745.png",b="/images/image-20230914222942216.png",g="/images/image-20230914222948946.png",u="/images/image-20230914222956280.png",I=JSON.parse('{"title":"","description":"","frontmatter":{"typora-root-url":"./..\\\\..\\\\..\\\\public"},"headers":[],"relativePath":"tools-dev-ssh.md","filePath":"docs/06_工具/08_SSH工具/01_SSH工具.md"}'),h={name:"tools-dev-ssh.md"},y=n('<h2 id="xshell-xftp" tabindex="-1">Xshell&amp;Xftp <a class="header-anchor" href="#xshell-xftp" aria-label="Permalink to &quot;Xshell&amp;Xftp&quot;">​</a></h2><h3 id="安装" tabindex="-1">安装 <a class="header-anchor" href="#安装" aria-label="Permalink to &quot;安装&quot;">​</a></h3><p>直接去<a href="https://www.netsarang.com/zh/xshell-download/" target="_blank" rel="noreferrer">官网</a>下载免费版使用,不用注册激活破解什么的,会给你的邮箱发送一封下载链接邮件,点击即可。安装也是next next next......</p><h3 id="配色" tabindex="-1">配色 <a class="header-anchor" href="#配色" aria-label="Permalink to &quot;配色&quot;">​</a></h3><ul><li>新建配色文件</li></ul><p><img src="'+l+'" alt="image-20230914221749818"></p><ul><li>导入</li></ul><p><img src="'+p+`" alt="image-20230914221800750"></p><p>配色方案:</p><p><strong><a href="https://zhuanlan.zhihu.com/p/50446153" target="_blank" rel="noreferrer">FlatUI配色方案</a></strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki github-dark vp-code-dark"><code><span class="line"><span style="color:#e1e4e8;">[FlatUI]</span></span>
+<span class="line"><span style="color:#e1e4e8;">text=e5e5e5</span></span>
+<span class="line"><span style="color:#e1e4e8;">cyan(bold)=16a085</span></span>
+<span class="line"><span style="color:#e1e4e8;">text(bold)=ecf0f1</span></span>
+<span class="line"><span style="color:#e1e4e8;">magenta=9b59b6</span></span>
+<span class="line"><span style="color:#e1e4e8;">green=2ecc71</span></span>
+<span class="line"><span style="color:#e1e4e8;">green(bold)=27ae60</span></span>
+<span class="line"><span style="color:#e1e4e8;">background=181818</span></span>
+<span class="line"><span style="color:#e1e4e8;">cyan=1abc9c</span></span>
+<span class="line"><span style="color:#e1e4e8;">red(bold)=c0392b</span></span>
+<span class="line"><span style="color:#e1e4e8;">yellow=f1c40f</span></span>
+<span class="line"><span style="color:#e1e4e8;">magenta(bold)=8e44ad</span></span>
+<span class="line"><span style="color:#e1e4e8;">yellow(bold)=f39c12</span></span>
+<span class="line"><span style="color:#e1e4e8;">red=e74c3c</span></span>
+<span class="line"><span style="color:#e1e4e8;">white=ebebeb</span></span>
+<span class="line"><span style="color:#e1e4e8;">blue(bold)=2980b9</span></span>
+<span class="line"><span style="color:#e1e4e8;">white(bold)=ecf0f1</span></span>
+<span class="line"><span style="color:#e1e4e8;">black=000000</span></span>
+<span class="line"><span style="color:#e1e4e8;">blue=3498db</span></span>
+<span class="line"><span style="color:#e1e4e8;">black(bold)=2c3e50</span></span>
+<span class="line"><span style="color:#e1e4e8;">[Names]</span></span>
+<span class="line"><span style="color:#e1e4e8;">name0=FlatUI</span></span>
+<span class="line"><span style="color:#e1e4e8;">count=1</span></span></code></pre><pre class="shiki github-light vp-code-light"><code><span class="line"><span style="color:#24292e;">[FlatUI]</span></span>
+<span class="line"><span style="color:#24292e;">text=e5e5e5</span></span>
+<span class="line"><span style="color:#24292e;">cyan(bold)=16a085</span></span>
+<span class="line"><span style="color:#24292e;">text(bold)=ecf0f1</span></span>
+<span class="line"><span style="color:#24292e;">magenta=9b59b6</span></span>
+<span class="line"><span style="color:#24292e;">green=2ecc71</span></span>
+<span class="line"><span style="color:#24292e;">green(bold)=27ae60</span></span>
+<span class="line"><span style="color:#24292e;">background=181818</span></span>
+<span class="line"><span style="color:#24292e;">cyan=1abc9c</span></span>
+<span class="line"><span style="color:#24292e;">red(bold)=c0392b</span></span>
+<span class="line"><span style="color:#24292e;">yellow=f1c40f</span></span>
+<span class="line"><span style="color:#24292e;">magenta(bold)=8e44ad</span></span>
+<span class="line"><span style="color:#24292e;">yellow(bold)=f39c12</span></span>
+<span class="line"><span style="color:#24292e;">red=e74c3c</span></span>
+<span class="line"><span style="color:#24292e;">white=ebebeb</span></span>
+<span class="line"><span style="color:#24292e;">blue(bold)=2980b9</span></span>
+<span class="line"><span style="color:#24292e;">white(bold)=ecf0f1</span></span>
+<span class="line"><span style="color:#24292e;">black=000000</span></span>
+<span class="line"><span style="color:#24292e;">blue=3498db</span></span>
+<span class="line"><span style="color:#24292e;">black(bold)=2c3e50</span></span>
+<span class="line"><span style="color:#24292e;">[Names]</span></span>
+<span class="line"><span style="color:#24292e;">name0=FlatUI</span></span>
+<span class="line"><span style="color:#24292e;">count=1</span></span></code></pre></div><h2 id="mobaxterm" tabindex="-1">mobaxterm <a class="header-anchor" href="#mobaxterm" aria-label="Permalink to &quot;mobaxterm&quot;">​</a></h2><h3 id="mobaxterm安装" tabindex="-1">mobaxterm安装 <a class="header-anchor" href="#mobaxterm安装" aria-label="Permalink to &quot;mobaxterm安装&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki github-dark vp-code-dark"><code><span class="line"><span style="color:#e1e4e8;">xshell要配合xftp,想着这个颜值好像也不错。用用看</span></span></code></pre><pre class="shiki github-light vp-code-light"><code><span class="line"><span style="color:#24292e;">xshell要配合xftp,想着这个颜值好像也不错。用用看</span></span></code></pre></div><ul><li>下载：<a href="https://mobaxterm.mobatek.net/download.html" target="_blank" rel="noreferrer">https://mobaxterm.mobatek.net/download.html</a></li></ul><h3 id="保持长时间不掉线" tabindex="-1">保持长时间不掉线 <a class="header-anchor" href="#保持长时间不掉线" aria-label="Permalink to &quot;保持长时间不掉线&quot;">​</a></h3><ul><li>ssh长连</li></ul><p><img src="`+o+'" alt="image-20230914221817837"></p><ul><li>sftp断开时间在这里设置，但是免费版不能设置。。。</li></ul><p><img src="'+t+'" alt="image-20230914221828668"></p><h3 id="连接ubuntu" tabindex="-1">连接ubuntu <a class="header-anchor" href="#连接ubuntu" aria-label="Permalink to &quot;连接ubuntu&quot;">​</a></h3><ul><li>第一步：Ubuntu中必须启动SSH服务</li></ul><p>在终端运行命令：<code>sudo apt-get install openssh-server</code></p><p><img src="'+c+'" alt="image-20230914221848276"></p><p>检查SSH服务是否启动命令：<code>ps -e |grep ssh</code></p><p><img src="'+i+'" alt="image-20230914222854498"></p><ul><li>第二步：关闭Ubunt防火墙</li></ul><p>关闭防火墙命令：<code>sudo ufw disable</code></p><p>查看防火墙状态命令：<code>sudo ufw status</code></p><p><img src="'+r+'" alt="image-20230914222908945"></p><ul><li>第三步：配置Ubuntu静态IP</li></ul><p>查看本机默认ip</p><p><img src="'+m+'" alt="image-20230914222917195"></p><p>查看默认的网关地址命令：<code>route -n</code></p><p><img src="'+d+'" alt="image-20230914222927745"></p><p>上面两步查看ip、网关及dns主要为下步配置ip提供数据用的。</p><p>具体设置IP命令：<code>sudo vi /etc/netplan/01-network-manager-all.yaml</code></p><p><img src="'+b+'" alt="image-20230914222942216"></p><p>上面配置信息中的192.168.1.1来自：</p><p><img src="'+g+'" alt="image-20230914222948946"></p><p>mobaxterm连接ubuntu</p><p><img src="'+u+'" alt="image-20230914222956280"></p>',42),_=[y];function f(x,k,v,w,S,q){return s(),e("div",null,_)}const U=a(h,[["render",f]]);export{I as __pageData,U as default};
